@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttons {
+    @apply p-3 my-auto h-14 mx-auto border border-2 rounded-xl;
+}
+
+.nav-link {
+    @apply block my-auto mx-3 hover:dark:text-zinc-200 hover:scale-110;
+}
